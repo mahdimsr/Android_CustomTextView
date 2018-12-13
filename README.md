@@ -9,6 +9,10 @@ Overview
 --------
 **CustomTextView** provides the following advantages:
 
+[![](https://jitpack.io/v/mahdimsr/Android_CustomTextView.svg)](https://jitpack.io/#mahdimsr/Android_CustomTextView)
+
+
+
 * **set font in xml**: you dont need to define a typeface and set it to your textview, just write the your target font path which is in assets folder in **app:fontPath=""** attribute;
 
 * **see how does font look**: also you can see how does font look after set the path in attribute;
