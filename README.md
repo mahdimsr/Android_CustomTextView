@@ -23,8 +23,18 @@ Gradle integration
 ------------------
 
 ```groovy
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+	
+	
+```groovy
 dependencies {
-    implementation 'mahdi.app.com.customtextview:1.0.0'
+    implementation 'com.github.mahdimsr:Android_CustomTextView:1.0.0'
 }
 ```
 
@@ -46,7 +56,7 @@ adding a view to an XML layout file and also put your font in **assets** folder 
 		android:gravity="center"
 		app:fontPath="Elfar.ttf"/>
 ```
-![from assets directly][https://github.com/mahdimsr/Android_CustomTextView/assets_directly.png]
+![from assets directly][https://github.com/mahdimsr/Android_CustomTextView/blob/master/assets_directly.png]
 
 
 ```xml
@@ -60,7 +70,7 @@ adding a view to an XML layout file and also put your font in **assets** folder 
 		app:fontPath="fonts/Elgar.ttf"/>
 ```
 
-![from folder in assets][https://github.com/mahdimsr/Android_CustomTextView/folder_in_assets.png]
+![from folder in assets][https://github.com/mahdimsr/Android_CustomTextView/blob/master/folder_in_assets.png]
 
 
 
